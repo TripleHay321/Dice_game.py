@@ -19,3 +19,5 @@ if players > 1 and players < 5:
     for i, win in enumerate(wins):
         if win == winner:
             print("Player", i+1, "Wins!")
+else:
+    print("Players must be between 2-4")
